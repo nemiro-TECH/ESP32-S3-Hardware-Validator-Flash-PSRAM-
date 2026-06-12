@@ -1,18 +1,18 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# ESPHome compilation and cache directories | Diretorios de compilacao e cache do ESPHome
+.esphome/
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# Other files and folders
-.settings/
+# Secret files containing real credentials | Arquivos secretos contendo credenciais reais
+secrets.yaml
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Operating system files | Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Editor and IDE configurations | Configuracoes de editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
